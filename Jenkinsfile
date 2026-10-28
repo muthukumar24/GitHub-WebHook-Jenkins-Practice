@@ -30,7 +30,7 @@ pipeline {
             echo "Application Deployment Failed"
         }
         always {
-            echo "Pipeline Execution Finished"
+            echo "Decalarative Pipeline Execution Finished"
         }
     }
 }
